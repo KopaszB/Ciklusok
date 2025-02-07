@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _5_feladat
+namespace _6_feladat
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 15; i++)
+            for (int i = 1; i <= 20; i++)
             {
-                Console.Write("* ");
+                Console.WriteLine($"{i}, {i}*{i} = {i*i}");
             }
-            Console.Read();
+            Console.ReadKey();
         }
+
     }
 }
